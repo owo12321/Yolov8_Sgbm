@@ -4,12 +4,9 @@ import time
 import random
 import math
 
-
-import sys
 import shutil,os
-sys.path.append('yolov8_pytorch_master')
-from yolov8.yolo_sgbm import YOLO
 
+from yolov8_pytorch.yolo_sgbm import YOLO
 yolo = YOLO()
 
 
